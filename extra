@@ -3,17 +3,17 @@ Ecma 5
 Ecma 6
 Ecma 7
 > variable
-//////////////////
 > Operations
 > condition
+> localstorage
+> String literals
+///////////////////////////
 > if else
 > ternery Operations
 > Date
 > switch
-> localstorage
 > array
 > loops
-> String literals
 > functions 
 > Es6
     > lat, const
