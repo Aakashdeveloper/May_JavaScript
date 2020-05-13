@@ -12,7 +12,7 @@ Ecma 7
 > Date
 > switch
 > array
-///////////////////////////
+////////////
 > loops
 > functions 
 > Es6
@@ -55,3 +55,6 @@ https://nodejs.org/en/
 
 ////
 Math Operations
+
+
+var count=0  var win =0  while(count<5) {  var num=window.prompt("enter number")  count=count+1  if (num==(Math.floor(Math.random()*(30-2))+2))  { win=win+1 console.log("matched"+win) }  else { console.log("did not match") }  }  if (win>=3){ console.log("you won") }  else{ console.log("you lost") }
