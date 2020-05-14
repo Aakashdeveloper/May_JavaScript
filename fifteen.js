@@ -51,3 +51,27 @@ a.length>0
 true
 typeof(a)
 "object"
+
+
+/////////////Method/////////
+function add(a,b){
+    return a+b
+}
+
+var add = function(a,b){
+    return a+b
+}
+
+add(2,3)
+
+
+
+/// Arrow Function(Es6) //////
+function add(a,b){
+    return a+b
+}
+
+var add = (a,b) => { return a+b }
+
+
+add(1,2)
