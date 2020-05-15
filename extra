@@ -17,13 +17,13 @@ Ecma 7
 > Es6
     > lat, const
     > maps,filter
-////////////
 > Clousers
 > Hoisting
+////////////
 > regex
 > object 
 > this 
-> Transpile
+> Transpile(babel)
 > Es6
     > classes
     > import export
