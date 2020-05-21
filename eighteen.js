@@ -68,7 +68,7 @@ console.log(b)
 //////////////
 
 var myvar = []
-for(var i =0;i<3;i++){
+for(let i =0;i<3;i++){
     myvar[i]=function(){
         console.log("I m in function ",i)
     }

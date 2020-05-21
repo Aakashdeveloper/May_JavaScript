@@ -20,15 +20,17 @@ Ecma 7
 > Clousers
 > Hoisting
 > regex
-////////////
 > object 
 > this 
 > Transpile(babel)
 > Es6
     > classes
     > import export
-
 > Prototypes
+> Github
+> package.JSON
+>npm
+////////////
 > DoM
 > Geolocation
 > Form validation
@@ -45,10 +47,7 @@ Ecma 7
 > screen
 -------------------------
 > JSON
-> Github
-//
-package.JSON
-npm
+
 
 https://nodejs.org/en/
 
@@ -60,4 +59,28 @@ npm
 package.JSON
 babel
 
-var count=0  var win =0  while(count<5) {  var num=window.prompt("enter number")  count=count+1  if (num==(Math.floor(Math.random()*(30-2))+2))  { win=win+1 console.log("matched"+win) }  else { console.log("did not match") }  }  if (win>=3){ console.log("you won") }  else{ console.log("you lost") }
+////////Step to create package.json///////
+**NodeJs must be installed
+
+> navigate to the folder
+> npm init
+> Answer all question
+> type 'yes'
+
+
+npm i @babel/core @babel/preset-env @babel/register/
+
+
+////////////github//////////////
+
+//FirstTime//////
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgit.git
+git push -u origin master
+
+//All Next Time//////
+git add .
+git commit -m "first commit"
+git push
