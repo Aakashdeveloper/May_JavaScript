@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Calc</title>
+        <script>
+            function add(){
+                var a = document.getElementById('first').value;
+                var b =  document.getElementById('second').value;
+                var out = document.getElementsByClassName('output')[0];
+                out.innerText = parseInt(a)+parseInt(b)
+            }
+            const sub = () => {
+                var a = document.getElementById('first').value;
+                var b =  document.getElementById('second').value;
+                var out = document.getElementsByClassName('output')[0];
+                out.innerText = parseInt(a)-parseInt(b)
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <center>
+                <div>
+                    <label>First</label>
+                    <input type="text" placeholder="first value"
+                    id="first"/>   
+                </div>
+                <div>
+                    <label>Second</label>
+                    <input type="text" placeholder="second value"
+                    id="second"/>   
+                </div>
+                <button type="button" onClick="add()">
+                    Add
+                </button>
+                <button type="button" onClick="sub()">
+                    Sub
+                </button>
+               <h2 class="output"></h2>
+            </center>
+        </div>
+    </body>
+</html>
