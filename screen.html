@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+            function test(){
+                var a = screen.availHeight;
+                 var b = screen.availWidth;
+
+                document.getElementById('mydiv').style.marginTop=a/2;
+                document.getElementById('mydiv').style.marginLeft=b/2;
+
+                alert(a)
+                alert(b)
+            }
+            window.location
+        </script>
+    </head>
+    <body>
+        <div id="mydiv" style="background:red; height:100px; width: 100px">
+        </div>
+        <button onclick="test()">Click</button>
+    </body>
+</html>
